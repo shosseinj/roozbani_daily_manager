@@ -1,0 +1,47 @@
+
+ ⛅️ wrangler 4.92.0 (update available 4.111.0)
+──────────────────────────────────────────────
+Successfully created tail, expires at 2026-07-15T12:37:34Z
+Connected to roozbani, waiting for logs...
+POST https://roozbani.hossein97jafari.workers.dev/api/auth - Ok @ 7/15/2026, 10:07:59 AM
+  (error) Authentication failed NotSupportedError: Pbkdf2 failed: iteration counts above 100000 are not supported (requested 600000).
+GET https://roozbani.hossein97jafari.workers.dev/ - Ok @ 7/15/2026, 10:09:44 AM
+POST https://roozbani.hossein97jafari.workers.dev/api/auth - Ok @ 7/15/2026, 10:10:06 AM
+  (error) Authentication failed NotSupportedError: Pbkdf2 failed: iteration counts above 100000 are not supported (requested 600000).
+GET https://roozbani.hossein97jafari.workers.dev/ - Ok @ 7/15/2026, 10:12:36 AM
+POST https://roozbani.hossein97jafari.workers.dev/api/auth - Ok @ 7/15/2026, 10:13:10 AM
+GET https://roozbani.hossein97jafari.workers.dev/api/auth - Ok @ 7/15/2026, 10:13:10 AM
+DELETE https://roozbani.hossein97jafari.workers.dev/api/auth - Ok @ 7/15/2026, 10:13:11 AM
+POST https://roozbani.hossein97jafari.workers.dev/api/auth - Ok @ 7/15/2026, 10:13:11 AM
+POST https://roozbani.hossein97jafari.workers.dev/api/auth - Exceeded CPU Limit @ 7/15/2026, 10:13:14 AM
+GET https://roozbani.hossein97jafari.workers.dev/ - Ok @ 7/15/2026, 10:22:07 AM
+GET https://roozbani.hossein97jafari.workers.dev/ - Ok @ 7/15/2026, 10:22:44 AM
+GET https://roozbani.hossein97jafari.workers.dev/api/dashboard - Ok @ 7/15/2026, 10:22:45 AM
+POST https://roozbani.hossein97jafari.workers.dev/api/auth - Ok @ 7/15/2026, 10:22:56 AM
+GET https://roozbani.hossein97jafari.workers.dev/api/dashboard - Ok @ 7/15/2026, 10:22:57 AM
+GET https://roozbani.hossein97jafari.workers.dev/phd - Ok @ 7/15/2026, 10:23:23 AM
+GET https://roozbani.hossein97jafari.workers.dev/api/phd/command-center - Ok @ 7/15/2026, 10:23:24 AM
+GET https://roozbani.hossein97jafari.workers.dev/phd.rsc?_rsc - Ok @ 7/15/2026, 10:23:35 AM
+POST https://roozbani.hossein97jafari.workers.dev/api/phd/actions - Ok @ 7/15/2026, 10:24:11 AM
+GET https://roozbani.hossein97jafari.workers.dev/api/phd/command-center - Ok @ 7/15/2026, 10:24:11 AM
+POST https://roozbani.hossein97jafari.workers.dev/api/phd/actions - Ok @ 7/15/2026, 10:24:30 AM
+GET https://roozbani.hossein97jafari.workers.dev/api/phd/command-center - Ok @ 7/15/2026, 10:24:31 AM
+GET https://roozbani.hossein97jafari.workers.dev/ - Ok @ 7/15/2026, 10:24:39 AM
+GET https://roozbani.hossein97jafari.workers.dev/api/dashboard - Ok @ 7/15/2026, 10:24:39 AM
+POST https://roozbani.hossein97jafari.workers.dev/api/agent - Ok @ 7/15/2026, 10:25:30 AM
+POST https://roozbani.hossein97jafari.workers.dev/api/agent - Ok @ 7/15/2026, 10:26:02 AM
+POST https://roozbani.hossein97jafari.workers.dev/api/tasks - Ok @ 7/15/2026, 10:26:13 AM
+POST https://roozbani.hossein97jafari.workers.dev/api/agent - Ok @ 7/15/2026, 10:26:37 AM
+POST https://roozbani.hossein97jafari.workers.dev/api/agent - Ok @ 7/15/2026, 10:27:23 AM
+GET https://roozbani.hossein97jafari.workers.dev/phd - Ok @ 7/15/2026, 10:27:39 AM
+GET https://roozbani.hossein97jafari.workers.dev/api/phd/command-center - Ok @ 7/15/2026, 10:27:39 AM
+POST https://roozbani.hossein97jafari.workers.dev/api/phd/actions - Ok @ 7/15/2026, 10:27:58 AM
+GET https://roozbani.hossein97jafari.workers.dev/api/phd/command-center - Ok @ 7/15/2026, 10:27:58 AM
+POST https://roozbani.hossein97jafari.workers.dev/api/phd/actions - Ok @ 7/15/2026, 10:28:09 AM
+GET https://roozbani.hossein97jafari.workers.dev/api/phd/command-center - Ok @ 7/15/2026, 10:28:09 AM
+GET https://roozbani.hossein97jafari.workers.dev/phd.rsc?_rsc - Ok @ 7/15/2026, 10:28:54 AM
+GET https://roozbani.hossein97jafari.workers.dev/ - Ok @ 7/15/2026, 10:31:00 AM
+GET https://roozbani.hossein97jafari.workers.dev/api/dashboard - Ok @ 7/15/2026, 10:31:00 AM
+POST https://roozbani.hossein97jafari.workers.dev/api/agent - Ok @ 7/15/2026, 10:31:42 AM
+POST https://roozbani.hossein97jafari.workers.dev/api/tasks - Ok @ 7/15/2026, 10:32:22 AM
+POST https://roozbani.hossein97jafari.workers.dev/api/agent - Ok @ 7/15/2026, 10:32:37 AM

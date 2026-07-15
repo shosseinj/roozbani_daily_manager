@@ -1,0 +1,54 @@
+{
+  "name": "roozbani-os",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vinext build",
+    "start": "vinext start",
+    "test": "npm run build && node --test tests/rendered-html.test.mjs",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
+    "db:generate": "drizzle-kit generate",
+    "preview": "vite preview",
+    "deploy": "npm run build && wrangler deploy --config dist/server/wrangler.json",
+    "typecheck": "tsc --noEmit",
+    "db:migrate:local": "wrangler d1 migrations apply DB --local --config ./wrangler.jsonc",
+    "db:migrate:remote": "wrangler d1 migrations apply DB --remote --config ./wrangler.jsonc",
+    "db:list:local": "wrangler d1 migrations list DB --local --config ./wrangler.jsonc",
+    "db:list:remote": "wrangler d1 migrations list DB --remote --config ./wrangler.jsonc",
+    "cf:types": "wrangler types --config ./wrangler.jsonc"
+  },
+  "dependencies": {
+    "drizzle-orm": "0.45.2",
+    "jalaali-js": "^1.2.8",
+    "lucide-react": "^0.468.0",
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.37.1",
+    "@cloudflare/workers-types": "^4.20260702.1",
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/jalaali-js": "^1.2.0",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "@vitejs/plugin-rsc": "0.5.26",
+    "drizzle-kit": "0.31.10",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.6",
+    "react-server-dom-webpack": "19.2.6",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3",
+    "vinext": "0.0.50",
+    "vite": "8.0.13",
+    "wrangler": "4.92.0"
+  },
+  "type": "module",
+  "displayName": "Roozbani Research & PhD OS"
+}

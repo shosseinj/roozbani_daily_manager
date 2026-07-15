@@ -1,0 +1,2 @@
+CREDENTIAL_ENCRYPTION_KEY=replace-with-a-long-random-production-safe-key
+OPENROUTER_API_KEY=

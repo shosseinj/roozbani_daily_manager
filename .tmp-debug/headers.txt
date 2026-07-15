@@ -1,0 +1,9 @@
+HTTP/1.1 400 Bad Request
+Access-Control-Allow-Origin: http://127.0.0.1:5173
+vary: RSC, Accept, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode
+content-length: 184
+content-type: application/json
+Date: Wed, 15 Jul 2026 06:32:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
